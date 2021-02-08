@@ -3,9 +3,9 @@ var path = require("path");
 var Module = require('module');
 var vm = require('vm');
 var originalrequire = require("original-require");
-var expect = require("truffle-expect");
-var Config = require("truffle-config");
-var Web3 = require("web3");
+var expect = require("moxie-expect");
+var Config = require("moxie-config");
+var Web3 = require("@vapory/web3");
 
 // options.file: path to file to execute. Must be a module that exports a function.
 // options.args: arguments passed to the exported function within file. If a callback

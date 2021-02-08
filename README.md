@@ -1,2 +1,2 @@
-# truffle-exec
-Executed a Javascript module within a Truffle context
+# moxie-exec
+Executed a Javascript module within a Moxie context

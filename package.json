@@ -1,34 +1,35 @@
 {
-  "name": "truffle-require",
+  "name": "moxie-require",
+  "namespace": "moxiesuite",
   "version": "1.0.5",
-  "description": "Require and execute a Javascript module within a Truffle context",
+  "description": "Require and execute a Javascript module within a Moxie context",
   "main": "require.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-exec.git"
+    "url": "git+https://github.com/moxiesuite/moxie-exec.git"
   },
   "keywords": [
-    "ethereum",
-    "truffle",
+    "vapory",
+    "moxie",
     "exec",
     "require"
   ],
   "author": "Tim Coulter <tim.coulter@consensys.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-exec/issues"
+    "url": "https://github.com/moxiesuite/moxie-exec/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-exec#readme",
+  "homepage": "https://github.com/moxiesuite/moxie-exec#readme",
   "devDependencies": {
     "mocha": "^3.4.2"
   },
   "dependencies": {
     "original-require": "^1.0.1",
-    "truffle-config": "^1.0.4",
-    "truffle-expect": "^0.0.3",
-    "web3": "^0.20.1"
+    "moxie-config": "^1.0.4",
+    "moxie-expect": "^0.0.3",
+    "@vapory/web3": "0.20.4-b"
   }
 }
